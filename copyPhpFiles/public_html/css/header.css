@@ -1,0 +1,443 @@
+h1,h2,h3,h4
+			{
+				font-family: 'Open Sans', sans-serif;
+				font-weight: 300;
+			}
+			.header
+			{
+				
+				width:auto;
+				height:auto;
+				background-image:url('../img/tribg.png');
+				background-color:rgba(19, 89, 135, 1);
+			}	
+			#logo
+			{
+				margin-right:20px;
+				float:left;
+				height:50px;
+				vertical-align:middle;
+				width:auto;
+			}
+			.header h1
+			{
+				margin:0px;
+				margin-top:15px;
+				color:#66ccff;
+				font-family: 'Lobster', cursive;
+				font-weight:300;
+				font-size:18px;
+				width:400px;
+				float:left
+			}
+			
+			input[type=submit],button,.searchdiv select
+			{
+				font-family: 'Open Sans', sans-serif;
+				width:200px;
+				padding:10px;
+				padding-left:15px;
+				padding-right:15px;
+				background-color: rgba(19, 89, 135, 0.9);
+				border:1px solid #fff;
+				color:#fff;	
+				cursor:pointer;
+			}
+			form input:active
+			{
+				border-color:#66ccff;
+			}
+			
+			.fixedhead
+			{
+				position:fixed;
+				top:0px;
+				left:0px;
+				width:100%;
+			}
+			.header
+			{
+				z-index:100;
+				padding:10px;
+				box-shadow:0 0 5px #000;
+			}
+			
+			.searchdiv
+			{
+				margin-top:5px;
+				width:600px;
+				float:left;
+			}
+			.searchdiv input[type=text]
+			{
+				width:300px;
+				height:40px;
+				margin-right:-2px;
+				float:left;
+				border:1px solid #fff;
+				padding-left:10px;
+			}
+			.shopdiv
+			{
+				height:66px;
+				margin-top:-10px;
+				margin-bottom:-10px;
+				background-color:rgba(19, 89, 135, 0.5);
+				float:right;
+				border-bottom:3px solid #fff;
+				width:100px;
+				padding-left:10px;
+				padding-right:10px;
+			}
+			.shopdiv img
+			{
+				height:50px;
+				vertical-align:middle;
+				float:right;
+			}
+			#cartnum
+			{
+				margin-top:5px;
+				width:auto;
+				padding:10px;
+				color:#fff;
+				border:1px dashed #fff;
+			}
+			
+			.macc
+			{  
+			    float: left;
+				  width: 110px;
+				  height: 55px;
+				  margin-right:20px;
+				  margin-top:-5px;
+				  margin-bottom:-20px;
+				  padding-top:10px;
+				  border-top-left-radius:10px;
+				  border-top-right-radius:10px;
+				
+			}
+			
+			.macc img
+			{
+				height:50px;
+				width:auto;
+				border-radius:25px;
+				cursor:pointer;
+			}
+			
+			.accdiv
+			{
+				background-color: rgba(255,255,255,1);
+				position:absolute;
+				height:220px;
+				border-top:0px;
+				width:255px;
+				margin-top:5px;
+				z-index:1000;
+				display:none;
+				border-bottom-left-radius:10px;
+				border-bottom-right-radius:10px;
+				box-shadow:0 2px 5px #484848;
+			}
+			.accdiv h1
+			{
+			
+				float:none;
+			 background-color:#dad7d7;
+				padding:10px;
+				margin:0px;
+				width:auto;
+				margin-bottom:10px;
+				font-family: 'Open Sans', sans-serif;
+				font-weight: 300;
+				color:#484848;
+				
+			}
+			.accdiv input
+			{
+				width:240px;
+				border:1px solid #181818;
+				border-radius:5px;
+				padding:10px;
+				margin-bottom:5px;
+			}
+			.navdiv
+			{
+				background-color: #31302b;
+				top:69px;
+				height:35px;
+				z-index:99;
+			}	
+			
+			.navul ul
+			{
+				padding:0px;
+				margin:0px;
+			}
+			.navul ul
+			{
+				  background: #ff66cc;
+				  border-radius: 0px;
+				  padding:0px;
+				  position: absolute;
+				  top: 100%;
+				  margin:0px;
+			}
+			.navul ul ul
+			{
+				display:block;
+			}
+			.navul ul li
+			{
+				width:auto;
+				display:inline-block;
+				  float: none;
+				  position: relative;
+				color:#484848;
+				list-style:none;
+				cursor:pointer;
+				text-transform:uppercase;
+				color:#fff;
+				padding: 12px 10px;
+				font-family: 'Open Sans', sans-serif;
+				font-weight: 300;
+				font-size:12px;
+				font-weight:bold;
+				float:left;
+				transition:0.1s;
+				
+			}
+			
+			.navul li:hover
+			{
+				background-color:#ddd;
+				color:#484848;
+				border-bottom:3px solid rgba(19, 89, 135, 1);
+			}
+			.navul li:hover >ul
+			{
+				display:block;
+			}
+			.navul ul li:hover
+			{
+				color:#fff;
+				background-color:#484848;
+			}
+			.navul
+			{
+				padding:0px;
+				margin:0px;
+			}
+			
+			.searchdiv input[type=text]:active
+			{
+				border-color:#fff;
+			}
+			.searchdiv input[type=submit],.searchdiv select
+			{
+				float:left;
+				width:100px;
+				border-radius:0px;
+				
+			}
+			.searchdiv select
+			{
+				background-color:#ddd;
+				height:40px;
+				width:150px;
+				color:#484848;
+				border-right:0px;
+			}
+			.searchdiv form
+			{
+				margin:0px;
+			}
+			.actmacc
+			{	
+				 background-color:#dad7d7;
+			}
+			.maincnt
+			{
+				min-width:1050px;
+				width:100%;
+				margin-top:100px;
+			}
+			.maincnt h1,.spl,.oh3,.accdiv a
+			{
+				font-family: 'Open Sans', sans-serif;
+				font-weight: 300;
+				margin:0px;
+			}
+			.accdiv a
+			{
+				color:#484848;
+			}
+			.banner
+			{
+				min-width:1050px;
+				height:210px;
+				padding-top:50px;
+				clear:both;
+				background-color:#ef672f;
+				background-image:url('../img/body-bg4.png');
+				background: -webkit-linear-gradient(45deg, #274E70 0%, #2095B2 100%); /* For Safari 5.1 to 6.0 */
+				background: -o-linear-gradient(45deg, #274E70 0%, #2095B2 100%); /* For Opera 11.1 to 12.0 */
+				background: -moz-linear-gradient(45deg, #274E70 0%, #2095B2 100%); /* For Firefox 3.6 to 15 */
+				background: linear-gradient(45deg, #274E70 0%, #2095B2 100%); /* Standard syntax (must be last) */
+			}
+			
+			.rootcal
+			{
+				width:65%;
+				float:left;
+			}
+			.rootcal h1
+			{
+				font-size:30px;
+			}
+			/*-----------NEW*/
+				ul
+		{
+			padding:0px;
+		}
+		.nvul
+		{
+			padding:0px;
+			margin:0px;
+		}
+		.nvul li
+		{
+			list-style:none;
+			display:inline-block;
+			padding:12px 10px;
+			color:#fff;
+			cursor:pointer;
+			font-size:12px;
+			 font-family: 'Open Sans', sans-serif;
+		}
+		.subh4
+		{
+			padding:2px;
+			margin:2px;
+			font-weight:bold;
+			color:#f90;
+		}
+		.class1050 .nvul .subdiv
+		{
+			position: absolute;
+			  width: 100%;
+			  min-width:1050px;
+			  min-height: 100px;
+			  border-top: 0;
+			  left: 0;
+			  margin-top: 7px;
+			  cursor: default;
+			  /* visibility: hidden; */
+			  color: #565656;
+			  background-color: #fff;
+			  box-shadow: 0 4px 6px -1px rgba(0,0,0,0.4);
+			  font-size: 12px;
+			  z-index: 101;
+  }
+		.subdiv ul ul
+		{
+			padding:0px;
+			background-color:#fff;
+			display:none;
+		}
+		.usubli:hover>ul
+		{
+			display:block;
+		}
+		.usubdiv
+		{
+			width:auto;
+			max-width:200px;
+			float:left;
+			margin-right:10px;
+			border:1px dotted #484848;
+		}
+		.subdiv ul li
+		{
+			display:inline-block;
+			border-right:10px;
+		}
+		.subdiv ul ul li
+		{
+			background-color:#f5f5f5;
+			font-weight:300;
+			color:rgba(19, 89, 135, 0.9)x;
+			display:block;
+		}
+		.subdiv
+		{
+			
+			box-shadow:0 0 5px #484848;
+		}
+		.subdiv ul
+		{
+			padding:0px;
+		}
+		.subdiv li
+		{	
+			color:#484848;
+			font-weight:bold;
+			
+		}
+		.subdiv li:hover
+		{
+			background-color:#f0f0f0;
+		}
+		.subdiv
+		{
+			
+		}
+		.subdiv li:hover>ul
+		{
+			display:block;
+		}
+		.nvul li .subdiv
+		{
+			visibility:hidden;
+		}
+		.nvul li:hover
+		{
+			background-color:#f0f0f0;
+			color:#484848;
+		}
+		.nvul li:hover>.subdiv
+		{
+			visibility:visible;
+		}
+		.class1050
+		{
+			width:1050px;
+		}
+		.usubul
+		{
+				background:#f5f5f5;
+			  border-bottom: 3px solid #f89424;
+			  border-left: 3px solid #f0f0f0;
+			  border-right: 3px solid #f0f0f0;
+			  display: none;
+			  height: auto;
+			  position: absolute;
+			  width: 206px;
+			  z-index: 16;
+			  padding: 20px;			  
+		}
+		.aftersuclogin,.alreadyloggedin
+		{
+			display:none;
+		}
+.showaccnt
+		{
+			display:block;
+		}
+		
+		.logerrmsgh3
+		{
+			color:red;
+			font-size:10px;
+		}

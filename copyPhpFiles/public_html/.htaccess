@@ -1,0 +1,39 @@
+errorDocument 400 http://www.youwebsite.com/404.html
+errorDocument 401 http://www.youwebsite.com/error.html
+errorDocument 403 http://www.youwebsite.com/error.html
+errorDocument 500 http://www.youwebsite.com/error.html
+
+
+# Disable Directory Browsing
+Options All -Indexes
+
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^youwebsite.com
+RewriteRule (.*) http://www.youwebsite.info/$1 [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^subdomain\.youwebsite\.com$
+RewriteCond %{REQUEST_URI} !^/subdomain_folder/
+RewriteRule (.*) /subdomain_folder/$1
+
+RewriteCond %{HTTP_HOST} ^oldwebsite.com
+RewriteRule (.*) http://www.newwebsite.com/$1 [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^www\.oldwebsite\.com
+RewriteRule (.*) http://www.newwebsite.com/$1 [R=301,L]
+
+# Make all PHP code look like HTML
+AddType application/x-httpd-php .htm .html
+
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
+
+Options +FollowSymLinks
+RewriteEngine On
+
+RewriteRule ^([0-9-_]+)/([a-zA-Z0-9-_]+)/?$ trial?uname=$1&password=$2 [NC,L]
+
+php_value upload_max_filesize 20M
+php_value post_max_size 20M
+php_value max_execution_time 200
+php_value max_input_time 200

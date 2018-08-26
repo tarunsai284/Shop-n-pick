@@ -1,0 +1,56 @@
+			footer
+			{
+				background-color:#1d7758;
+				padding-top:20px;
+				padding-bottom:20px;
+				overflow-y:auto;
+				width:100%;
+				min-width:1050px;
+				background-image:url('../img/square.png');
+				
+			}
+			.fldiv
+			{
+				float:left;
+				width:330px;
+				padding:10px;
+				
+			}
+			.fldiv h4,.fldiv h3,.fldiv a,.fldiv h2
+			{	
+				font-family: 'Open Sans', sans-serif;
+				font-weight: 300;
+				color:#fff;
+				text-decoration:none;
+				text-align:left;
+			}
+			.fldiv h4
+			{
+				background-color:rgba(255,255,255,0.5);
+				padding:10px;
+				color:#484848;
+			}
+			.fldiv li h4
+			{
+				color:#fff;
+				margin:0px;
+				padding:2px;
+				background:transparent;
+				transition:0.3s;
+			}
+			.fldiv ul
+			{
+				padding:0px;
+			}
+			.fldiv li h4:hover
+			{
+				padding-left:5px;
+				background-color:rgba(240,240,240,0.8);
+				color:#484848;
+				letter-spacing:3px;
+			}
+			.fldiv li
+			{
+				list-style:none;
+				text-align:left;
+			}
