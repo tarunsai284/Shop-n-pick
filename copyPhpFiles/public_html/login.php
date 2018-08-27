@@ -24,6 +24,7 @@
 	<body>
 <?php if($try)echo "<h2>".$msg."</h2>";?>
 		<form action="login.php"method="post">
+			<h3>Login to Dashboard</h3>
 			<input type="text" name="phoneno" placeholder="phone no"/>
 			<input type="password" name="pass" placeholder="password" />
 			<button name="logck" value="ck">Submit</button>
